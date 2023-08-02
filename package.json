@@ -1,0 +1,17 @@
+{
+	"name": "web-parser",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Web parser for https://anmp.pt/municipios/municipios/contactos-camaras-municipais/",
+	"main": "src/index.js",
+	"scripts": {
+		"download": "node src/download.js",
+		"parse": "node src/parseMain.js"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12",
+		"csv-write-stream": "^2.0.0",
+		"csv-writer": "^1.6.0",
+		"puppeteer": "^20.9.0"
+	}
+}
